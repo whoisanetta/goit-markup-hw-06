@@ -451,13 +451,19 @@
     <!--------modal1 order service---------->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <div class="close-btn-item">
           <button class="close-btn" type="button" data-modal-close>
             <svg class="close-icon" width="8" height="8">
               <use href="./images/close-modal.svg#icon-x-btn"></use>
             </svg>
           </button>
-        </div>
+          <p class="modal-title">Leave your contacts and we will call you back</p>
+          <form  class="modal-form">
+            <input type="text" name="user-name" class="modal-input" placeholder="">
+            <input type="text" name="user-phone" class="modal-input" placeholder="">
+            <input type="text" name="user-email" class="modal-input" placeholder="">
+            <input type="text" name="user-comment" class="modal-input-comment" placeholder="Text input">
+            <button type="submit">Send</button>
+          </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
