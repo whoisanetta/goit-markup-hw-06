@@ -445,7 +445,7 @@
               </li>
             </ul>
           </li>
-          <li class="footer-item">
+          <li class="footer-item footer-item-submit">
             <form class="footer-form">
               <div class="footer-field">
                 <label for="user-email" class="footer-input-text">Subscribe</label>
@@ -455,11 +455,11 @@
                     <button type="submit" class="footer-submit-button">
                       <div class="footer-btn-wrap">
                       <span class="footer-btn-text">Subscribe</span>
-                      <svg class="footer-subscribe-icon" width="24" height="24">
+                      <!--<svg class="footer-subscribe-icon" width="24" height="24">
                         <use href="./images/footer-subsc.svg#icon-subscribe"></use>
                       </svg>
                       </div>
-                    </button>
+                    </button>-->
                     <!--until here-->
                   </div>
               </div>
@@ -520,9 +520,16 @@
               class="modal-comment modal-input"
               placeholder="Text input"
               ></textarea>
-              <div class="input-wrap">
              </div>
-             </div>
+             <div class="modal-field">
+              <input 
+              type="checkbox" 
+              name="Privacy Policy" 
+              id="Privacy Policy" 
+              value="true" 
+              class="input-check hidden">
+              <label for="Privacy Policy" class="check-text">I accept the terms and conditions of the Privacy Policy</label>
+            </div>
             <button type="submit" class="modal-btn">Send</button>
           </form>
       </div>
