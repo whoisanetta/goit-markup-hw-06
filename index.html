@@ -471,11 +471,13 @@
     <!--------modal1 order service---------->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <div class="close-button-wrap">
           <button class="close-btn" type="button" data-modal-close>
             <svg class="close-icon" width="8" height="8">
               <use href="./images/close-modal.svg#icon-x-btn"></use>
             </svg>
           </button>
+        </div>
           <p class="modal-title">Leave your contacts and we will call you back</p>
           <form  class="modal-form">
             <div class="modal-field">
@@ -528,7 +530,7 @@
               id="Privacy Policy" 
               value="true" 
               class="input-check hidden">
-              <label for="Privacy Policy" class="check-text">I accept the terms and conditions of the Privacy Policy</label>
+              <label for="Privacy Policy" class="check-text">I accept the terms and conditions of the <a class="privacy-link">Privacy Policy</a></label>
             </div>
             <button type="submit" class="modal-btn">Send</button>
           </form>
