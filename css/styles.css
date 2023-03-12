@@ -588,6 +588,8 @@ body {
   border-radius: 4px;
   background-color: transparent;
   padding: 8px 16px;
+
+  color: #fff;
 }
 
 .footer-input::placeholder {
@@ -630,7 +632,11 @@ body {
 }
 
 .footer-btn-text::after {
-  content: "";
+  content: url(../images/footer-subsc.svg#icon-subscribe);
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  fill: rgb(255, 255, 255);
 }
 
 .footer-subscribe-icon {
@@ -893,6 +899,10 @@ body {
   height: 120px;
 
   resize: none;
+}
+
+.modal-comment::placeholder {
+  padding-top: 8px;
 }
 
 .modal-input::placeholder {
