@@ -576,9 +576,6 @@ body {
   margin-bottom: 16px;
 }
 
-.footer-input-text::after {
-}
-
 .footer-input {
   height: 40px;
   width: 264px;
@@ -604,7 +601,8 @@ body {
 
 /*button question*/
 .footer-submit-button {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   margin-left: 24px;
   padding: 8px 24px;
   min-width: 169px;
@@ -631,21 +629,19 @@ body {
   color: #ffffff;
 }
 
-.footer-btn-text::after {
+/*.footer-btn-text::after {
   content: url(../images/footer-subsc.svg#icon-subscribe);
   display: inline-block;
   width: 24px;
   height: 24px;
   fill: rgb(255, 255, 255);
-}
+}*/
 
 .footer-subscribe-icon {
-  display: inline-block;
+  fill: #fff;
+  margin-left: 16px;
 }
 
-.footer-btn-wrap {
-  gap: 16px;
-}
 /*--------portfolio--------*/
 .box-sec {
   padding-top: 120px;
